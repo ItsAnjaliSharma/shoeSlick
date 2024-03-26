@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Haven</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <div class="header">
+            <nav>
+                 <h2 class="logo"><strong>Slick</strong></h2>
+                <ul>
+                
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Collection</a></li>
+                    <li><a href="#">Customize</a></li>
+                    <li id="search-box">
+                        <!-- Search box -->
+                        <form action="/search" method="GET">
+                            <input type="text" name="query" placeholder="Search...">
+                            <button type="submit">Search</button>
+                        </form>
+                    </li>
+                    <li> <a id="cart-icon" href="#cart">🛒</a></li> 
+                    <li id="menu-icon" onclick="toggleMenu()">☰</li>
+                    <!-- Replace "☰" with an icon if preferred -->
+                </ul>
+
+            </nav>
+        </div>
+    <div class="conatiner">
+        <div class="container-left">
+            <h1 class="mhead">Find Your <br> Sole Mate <br> With Us</h1>
+            <p class="mpara">Lorem, ipsum dolor sit amet consectetur nostrum excepturi, voluptatibus, facilis maiores <br> labore modi quam eos quaerat dolor odio praesentium id ab nesciunt accusamus? Et, laboriosam?</p>
+            <button class="shop">Shop Now</button>
+        </div>
+
+        <div class="container-right">
+            <img class="s-img"   src="./assert/snekers.jpg" alt="sneker">
+            <h4 class="sname">Trendy Slick Pro</h4>
+            <h5 class="price">&#8377; 3999.00</h5>
+        </div>
+    </div>
+
+    <div class="brands">
+        <img src="./assert/ebay.png" alt="ebay">
+        <img src="./assert/amazon.png"  alt="amazon">
+        <img src="./assert/Ajio.png"   alt="ajio">
+        <img src="./assert/ebay.png"   alt="ebay">
+        <img src="./assert/amazon.png"   alt="amazon">
+        <img src="./assert/Ajio.png"  alt="ajio">
+    </div>
+
+    <div class="container2">
+        <div class="left">
+           <h3 style="font-weight: 400;">Our Trending Shoe</h2>
+            <h1 style=" font-weight: bold;">Most Popular Products</h1>
+            <p style="color:gray ;">Lorem ipsum nesciunt voluptatibus,<br>
+                 placeat animi enim  odio</p>
+
+            <button class="shop">Explore</button>     
+        
+                </div>
+         <div class="right">
+           
+           <div class="card">
+             <img src="./assert/image1.jpg" alt="Image">
+              <h2>Running Sports Shoes</h2>
+             <h3>&#8377; 3999.00</h3>
+            </div>
+
+            <div class="card">
+                <img src="./assert/image2.jpg" alt="Image">
+                 <h2>Running Sports Shoes</h2>
+                <h3>&#8377; 3999.00</h3>
+               </div>
+
+            <div class="card">
+            <img src="./assert/image3.jpg" alt="Image">
+            <h2>Running Sports Shoes</h2>
+              <h3>&#8377; 3999.00 </h3>
+            </div>
+            <button class="prev" onclick="scrollCards(-1)">&#10094;</button>
+            <button class="next" onclick="scrollCards(1)">&#10095;</button>
+ 
+    </div>
+</div>
+    <div class="conatiner3">
+
+    <div class="horizontal_line"></div> <h1>Best Selling</h1><div class="horizontal_line"></div> 
+
+    <div class="buttons">
+        <button style="color:white; background-color: black;">Man</button>
+        <button >Women</button>
+        <button>Boy</button>
+        <button>Child</button>
+    </div>
+</div>
+
+<div class="container4">
+    <div class="card">
+        <img src="./assert/image1.jpg" alt="Image 1">
+        <h2>Running Sports Shoes</h2>
+        <h3>&#8377; 3999.00</h3>
+     
+    </div>
+    <div class="card">
+        <img src="assert/image2.jpg" alt="Image 2">
+        <h2>Running Sports Shoes</h2>
+        <h3>&#8377; 3999.00</h3>
+        
+    </div>
+    <div class="card">
+        <img src="assert/image3.jpg" alt="Image 3">
+        <h2>Running Sports Shoes</h2>
+        <h3>&#8377; 3999.00</h3>
+    
+    </div>
+    <div class="card">
+        <img src="assert/image3.jpg" alt="Image 4">
+        <h2>Running Sports Shoes</h2>
+        <h3>&#8377; 3999.00</h3>
+       
+    </div>
+    <div class="card">
+        <img src="assert/snekers.jpg" alt="Image 5">
+        <h2>Running Sports Shoes</h2>
+        <h3>&#8377; 3999.00</h3>
+        
+    </div>
+    <div class="card">
+        <img src="assert/image2.jpg" alt="Image 6">
+        <h2>Running Sports Shoes</h2>
+        <h3>&#8377; 3999.00</h3>
+      
+    </div>
+</div>
+
+<div class="container5">
+     <h1 style="display: block; align-items: center; margin-left:40% ; font-weight: bold;">Customer Review</h1>
+     <div class="review">
+    <div class="review-card">
+    <div class="reviewer-info">
+        <img src="./assert/rtwo.jpg" alt="Reviewer Avatar">
+        <div class="reviewer-name">John Doe</div>
+    </div>
+    <div class="review-content">
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum lorem sit amet lorem imperdiet, sed lacinia orci ultrices."
+    </div>
+    <div class="review-rating">
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9734;</span>
+    </div>
+    
+</div>
+<div class="review-card">
+    <div class="reviewer-info">
+        <img src="./assert/rone.jpg" alt="Reviewer Avatar">
+        <div class="reviewer-name">Ava Joshi</div>
+    </div>
+    <div class="review-content">
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum lorem sit amet lorem imperdiet, sed lacinia orci ultrices."
+    </div>
+    <div class="review-rating">
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9734;</span>
+    </div>
+   
+</div>
+</div>
+</div>
+
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <h2>Slick</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut unde,<br>
+            fugit voluptates, odio labore odit tempora itaque ipsa dolores, <br>
+         quae magni adipisci voluptas voluptatibus expedita quidem. Quam ducimus quod sint.</p>
+            <div class="social-links">
+                <a href="./assert/facebook.png">Facebook</a>
+                <a href="./assert/social.png">Twitter</a>
+            </div>
+            <div class="email-subscription">
+                <h2>Subscribe for news letters</h2>
+                <input type="email" placeholder="Enter your email">
+                <button>Subscribe</button>
+            </div>
+        </div>
+        <div class="navbar-links">
+            <h3>Quick links</h3>
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Categories</a>
+            <a href="#">Contact</a>
+            <a href="#">Privacy</a>
+        </div>
+    </div>
+</footer>
+    <script src="index.js"></script>
+
+</body>
+</html>

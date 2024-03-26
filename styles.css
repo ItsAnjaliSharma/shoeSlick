@@ -1,0 +1,462 @@
+/* Basic styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background: white;
+}
+header {
+    background-color: white;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 30px;
+   
+}
+nav {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+
+
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+        } 
+
+.logo{
+    color: black;
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+    padding: 10px;
+    margin-left:5px ;
+    font-weight:bolder;
+    font-size: xx-large;
+}      
+
+
+/* Style for search box */
+#search-box {
+    margin-right: 10px;
+    float: right;
+
+}
+
+#cart-icon {
+    display: block;
+    font-size: 24px;
+    float: right;
+ 
+}
+/* Style for menu icon */
+#menu-icon {
+    display: none; /* Hide by default on larger screens */
+    font-size: 24px;
+    cursor: pointer;
+    float: right;
+    margin-left: 20px ;
+}
+
+.container{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.container-left{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    margin: 59px ;
+    padding: 10px;
+
+}
+
+.mhead{
+    margin: inherit;
+}
+.mpara{
+    color: grey ;
+    font-size: 12px;
+    margin: inherit;
+}
+
+.shop{
+    color: white;
+    background-color: black;
+    width: 150px;
+    height: 58px;
+    font-size: 18px;
+    margin: inherit;
+    margin-top: 2px;
+    padding: 2px;
+}
+
+.container-right{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin: 59px;
+    padding: 10px;
+    justify-content: center;
+    background-size: cover;
+    align-items: self-end;
+    justify-items: flex-start;
+}
+
+.s-img{
+    height: 70vh;
+    width: 40vw;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    flex-basis: content;
+    
+}
+
+.sname{
+    font-size: 26px;
+    color: black;
+    margin: auto;    
+
+}
+
+.price{
+    color: grey;
+    margin: auto;
+    margin-top: 14px;
+}
+
+.brands{
+    display: block;
+    position: inherit;
+    background-color: black;
+    height: 10vh;
+    width: 100%;
+    margin: inherit;
+    margin-top: 50%;
+    justify-content: space-between;
+}
+
+.brands > img{
+    display: inline-block;
+    height: 100%;
+    width: 15%;
+    justify-content: space-around;
+    
+}
+
+.container2{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 30px;
+    
+}
+
+
+/* Slider container */
+.right {
+    display: flex;
+    flex-direction: row;
+    width: 56%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    justify-content: center;
+    border: none;
+}
+
+/* Basic styling for cards */
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(6, 6, 6, 0.1);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Image styling */
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Heading styling */
+.card h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.card h3 {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    padding: 10px;
+    background: rgba(112, 111, 111, 0.511);
+    border: none;
+    border-radius: 3px;
+    transition: background 0.3s;
+}
+
+.prev:hover, .next:hover {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.horizontal_line {
+    width: 1%;
+    height: 2px;
+    border-top: 5px solid rgb(130, 129, 129);
+    line-height: 1%;
+}
+
+.conatiner3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  
+}
+
+
+.head1{
+    margin: 2px;
+    margin-top: 20px;
+
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+   
+
+}
+
+.buttons >button{
+    color: black;
+    background-color: white;
+    width: 150px;
+    height: 58px;
+    font-size: 18px;
+    margin: inherit;
+    margin-top: 2px;
+    padding: 2px;
+    justify-content: space-around;
+    margin-left: 40px;
+
+    
+    
+}
+
+.container4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.container4 > .card {
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.container4 > .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Button styling */
+.container4 > .card button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.container4> .card button:hover {
+    background-color: #0056b3;
+}
+
+/* Heading styling */
+.container4> .card h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.container4> .card h3 {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.conatiner5{
+    display: block;
+    margin-top: 40px;
+}
+
+.review{
+    margin-top:50px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.review-card {
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #e0dfdfc6;
+}
+
+/* Reviewer details */
+.reviewer-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.reviewer-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.reviewer-name {
+    font-weight: bold;
+}
+
+/* Review content */
+.review-content {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+/* Review rating */
+.review-rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.star {
+    color: #FFD700; /* Gold color for stars */
+}
+
+footer {
+    display: block;
+   
+    margin-top: 58px;
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Style for heading */
+footer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style for social links */
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Style for email subscription button */
+.email-subscription button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for navbar links */
+.navbar-links {
+    margin-top: 20px;
+}
+
+.navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    li:not(:first-child) {
+        display: none; /* Hide other items on smaller screens */
+    }
+    #menu-icon {
+        display: block; /* Show menu icon on smaller screens */
+    }
+}
